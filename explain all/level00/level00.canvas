@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"fa840e05ac26ff4c","type":"file","file":"snowcrash/explain all/level00/1.png","x":-780,"y":-360,"width":975,"height":255},
+		{"id":"40983168847f8870","type":"file","file":"snowcrash/explain all/level00/2.png","x":360,"y":-385,"width":880,"height":560},
+		{"id":"3ec2e484d07d514a","type":"text","text":"**İntra üzerinden snowcrash videosunu izlerken böyle iki şey ile karşılaştık.**","x":-20,"y":-560,"width":612,"height":60,"color":"#ff0000"},
+		{"id":"073b413e163317c1","type":"text","text":"flag00 dosyasını kullanabilen kişiyi  \"find / -user flag00 2>/dev/null\" komutu ile tespit ettik, 2>/dev/null kullanma sebebimiz sorguyu yaparken oluşan permission denied hatalarını silip direkt görmek istediğimiz mesaja ulaşmaktır","x":-51,"y":760,"width":493,"height":154,"color":"1"},
+		{"id":"61da95a493dd2c3c","type":"file","file":"snowcrash/explain all/level00/powershell_eTdrNdKHFr.png","x":-1398,"y":1160,"width":1840,"height":1100},
+		{"id":"3203efff6452ee1e","type":"file","file":"snowcrash/explain all/level00/powershell_X3ElaswWDL.png","x":1440,"y":1160,"width":1840,"height":1100},
+		{"id":"dd6cae8c0b060083","type":"text","text":"Devamında john adlı dosyanın içinde okunabilen stringleri getirmek için \"strings john\" komutunu kullandık. ","x":720,"y":1550,"width":400,"height":160,"color":"1"},
+		{"id":"40af6b564984cf95","type":"text","text":"Elde ettiğimiz \"cdiiddwpgswtgt\" şifreli kodu başta videoda gördüğümüz sitelerden olan otomatik şifre çözen siteden çözdük","x":1640,"y":480,"width":405,"height":105,"color":"1"},
+		{"id":"235f15ea2a8a2b4c","type":"file","file":"snowcrash/explain all/level00/chrome_9enAjCFwKq.png","x":1940,"y":-200,"width":1006,"height":476},
+		{"id":"39d5386c9aecaf89","type":"file","file":"snowcrash/explain all/level00/powershell_actVK4fua7.png","x":3560,"y":192,"width":1315,"height":786},
+		{"id":"0cba5e9dc658d1f8","type":"text","text":"Elde ettiğimiz \"nottoohardhere\" şifresi ile flag00'a giriş yaptık","x":3180,"y":192,"width":280,"height":128,"color":"1"},
+		{"id":"61b4923051c331a7","type":"text","text":"getflag yaptığımız zaman karşımıza gelen token ile level01'e giriş yaptık ve ilk levelimiz tamamlandı","x":4153,"y":1160,"width":400,"height":113,"color":"1"},
+		{"id":"2e173cd1f4c378e2","type":"file","file":"snowcrash/explain all/level00/powershell_Uk16DgIYrA.png","x":3640,"y":1360,"width":1746,"height":1044}
+	],
+	"edges":[
+		{"id":"452de1183a265249","fromNode":"3ec2e484d07d514a","fromSide":"bottom","toNode":"fa840e05ac26ff4c","toSide":"top"},
+		{"id":"3550835ecad9ba2f","fromNode":"3ec2e484d07d514a","fromSide":"bottom","toNode":"40983168847f8870","toSide":"top"},
+		{"id":"7b6960eeb126acfb","fromNode":"fa840e05ac26ff4c","fromSide":"bottom","toNode":"073b413e163317c1","toSide":"top"},
+		{"id":"0d611fa24130564b","fromNode":"40983168847f8870","fromSide":"bottom","toNode":"073b413e163317c1","toSide":"top"},
+		{"id":"a1490b783965e812","fromNode":"073b413e163317c1","fromSide":"bottom","toNode":"61da95a493dd2c3c","toSide":"top"},
+		{"id":"0f87bb3e0f92b76e","fromNode":"61da95a493dd2c3c","fromSide":"right","toNode":"dd6cae8c0b060083","toSide":"left"},
+		{"id":"b7238375f1cdfe7d","fromNode":"dd6cae8c0b060083","fromSide":"right","toNode":"3203efff6452ee1e","toSide":"left"},
+		{"id":"5a67a9fcfc50190b","fromNode":"3203efff6452ee1e","fromSide":"top","toNode":"40af6b564984cf95","toSide":"bottom"},
+		{"id":"1a150c10973ad8e4","fromNode":"40af6b564984cf95","fromSide":"top","toNode":"40983168847f8870","toSide":"right"},
+		{"id":"7dadcdda3208ca28","fromNode":"40983168847f8870","fromSide":"right","toNode":"235f15ea2a8a2b4c","toSide":"left"},
+		{"id":"0e1af127c1bb262a","fromNode":"235f15ea2a8a2b4c","fromSide":"right","toNode":"0cba5e9dc658d1f8","toSide":"left"},
+		{"id":"96cd5526644686ab","fromNode":"0cba5e9dc658d1f8","fromSide":"right","toNode":"39d5386c9aecaf89","toSide":"left"},
+		{"id":"e0c52acf22b5767f","fromNode":"39d5386c9aecaf89","fromSide":"bottom","toNode":"61b4923051c331a7","toSide":"top"},
+		{"id":"258a714f1ba36b3a","fromNode":"61b4923051c331a7","fromSide":"bottom","toNode":"2e173cd1f4c378e2","toSide":"top"}
+	]
+}
