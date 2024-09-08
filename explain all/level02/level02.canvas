@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"4c0ca5b604689f34","x":-380,"y":-140,"width":400,"height":257,"type":"file","file":"snowcrash/explain all/level02/1.png"},
+		{"id":"b581509ef56cef91","x":-380,"y":-280,"width":380,"height":80,"color":"1","type":"text","text":"Her zaman yaptığımız gibi ilk başta ls komutu ile ne var diye kontrol ediyoruz"},
+		{"id":"5295efe5cbcaa1dd","x":300,"y":-140,"width":491,"height":257,"type":"file","file":"snowcrash/explain all/level02/2.png"},
+		{"id":"1bfa4a311d9fda01","x":-380,"y":200,"width":459,"height":88,"color":"1","type":"text","text":"level02.pcap adında bir packet capture dosyamız olduğunu farkettik ve gerekli izinlerimiz olmadığı için anabilgisiyarımıza \"scp\" komutu ile dosyayı çektik"},
+		{"id":"d6855e61046a1eeb","x":400,"y":170,"width":340,"height":74,"color":"1","type":"text","text":"Wireshark uygulaması ile packet capturemizi inceleceyeğiz."},
+		{"id":"163f1e57adabbc4b","x":113,"y":400,"width":1255,"height":680,"type":"file","file":"snowcrash/explain all/level02/3.png"},
+		{"id":"fbac2d5479e15c70","x":-1464,"y":1689,"width":250,"height":60,"type":"text","text":""},
+		{"id":"b89299a2fc031318","x":-840,"y":560,"width":610,"height":80,"color":"1","type":"text","text":"TCP protokolünde olduğu için  TCP filtreleme yapıyoruz ve karşımıza böyle bir sonuç çıkıyor"},
+		{"id":"7043810ee7a19bfe","x":-1400,"y":800,"width":1360,"height":1113,"type":"file","file":"snowcrash/explain all/level02/4.png"},
+		{"id":"3a965adac859c6d9","x":320,"y":1480,"width":440,"height":50,"color":"1","type":"text","text":"Daha iyi okuyabilmek için kopyalayıp inceliyoruz"},
+		{"id":"178a50a2eabba9f6","x":-1464,"y":2040,"width":2963,"height":1605,"type":"file","file":"snowcrash/explain all/level02/5.png"},
+		{"id":"fa90dd3dfcd4a8c1","x":2200,"y":2800,"width":1608,"height":599,"type":"file","file":"snowcrash/explain all/level02/6.png"},
+		{"id":"cd708c256353559d","x":2080,"y":3720,"width":720,"height":80,"color":"1","type":"text","text":"Karşımıza çıkan ilk şifreyi deniyoruz ama başarısız olduk. Daha sonra \".\" olmadan şifreyi tekrar deniyoruz ama yine başarısız"},
+		{"id":"def183de9d06ff48","x":1360,"y":4920,"width":500,"height":80,"color":"1","type":"text","text":"Daha sonra hex değerlerine bakmaya karar verdik ve 7f (del) anlamına geldiğini kendinden önceki şeyi sildiğini farkettik"},
+		{"id":"c6ae02861dca2d37","type":"file","file":"snowcrash/explain all/level02/7.png","x":-1323,"y":4000,"width":2345,"height":1000},
+		{"id":"83cc25a2b6442903","x":-1000,"y":5360,"width":1210,"height":600,"type":"file","file":"snowcrash/explain all/level02/8.png"},
+		{"id":"8f826d61cc4d489e","x":580,"y":5440,"width":1305,"height":839,"type":"file","file":"snowcrash/explain all/level02/9.png"}
+	],
+	"edges":[
+		{"id":"e374db5cc8d7063d","fromNode":"b581509ef56cef91","fromSide":"bottom","toNode":"4c0ca5b604689f34","toSide":"top"},
+		{"id":"7cae76ac9d8df257","fromNode":"4c0ca5b604689f34","fromSide":"bottom","toNode":"1bfa4a311d9fda01","toSide":"top"},
+		{"id":"e2585f4bd165bd90","fromNode":"1bfa4a311d9fda01","fromSide":"right","toNode":"5295efe5cbcaa1dd","toSide":"left"},
+		{"id":"6142d586321c92ad","fromNode":"d6855e61046a1eeb","fromSide":"bottom","toNode":"163f1e57adabbc4b","toSide":"top"},
+		{"id":"08999f098c9b7ea1","fromNode":"163f1e57adabbc4b","fromSide":"left","toNode":"b89299a2fc031318","toSide":"right"},
+		{"id":"425481f0effc3199","fromNode":"b89299a2fc031318","fromSide":"bottom","toNode":"7043810ee7a19bfe","toSide":"top"},
+		{"id":"72943783e67dc2ff","fromNode":"7043810ee7a19bfe","fromSide":"right","toNode":"3a965adac859c6d9","toSide":"left"},
+		{"id":"0156a341812a8755","fromNode":"3a965adac859c6d9","fromSide":"bottom","toNode":"178a50a2eabba9f6","toSide":"top"},
+		{"id":"64403f52d1c643fd","fromNode":"178a50a2eabba9f6","fromSide":"right","toNode":"fa90dd3dfcd4a8c1","toSide":"left"},
+		{"id":"7a6e86932d6e420f","fromNode":"fa90dd3dfcd4a8c1","fromSide":"bottom","toNode":"cd708c256353559d","toSide":"top"},
+		{"id":"3748682d6b520b0f","fromNode":"cd708c256353559d","fromSide":"bottom","toNode":"c6ae02861dca2d37","toSide":"top"},
+		{"id":"8c171ac97918e4ec","fromNode":"c6ae02861dca2d37","fromSide":"right","toNode":"def183de9d06ff48","toSide":"left"},
+		{"id":"ba0cbb793c2fe763","fromNode":"def183de9d06ff48","fromSide":"bottom","toNode":"83cc25a2b6442903","toSide":"top"},
+		{"id":"cab52144f3807971","fromNode":"83cc25a2b6442903","fromSide":"right","toNode":"8f826d61cc4d489e","toSide":"left"}
+	]
+}

@@ -14,4 +14,4 @@ Dileyen kişiler, proje ile birlikte gelen .canvas dosyalarını import ederek O
 3. "Import" seçeneğini seçin ve .canvas dosyasını bulun.
 4. Dosyayı seçerek import işlemini tamamlayın.
 
-> **Dikkat:** Dikkat edin bu projeyi yaparjen **manyak olursunuz** :)
+> **Dikkat:** Dikkat edin bu projeyi yaparken **manyak olursunuz** :)
