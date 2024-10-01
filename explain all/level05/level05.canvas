@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"7b80c8b3ee471013","type":"file","file":"snowcrash/explain all/level05/1.png","x":-300,"y":-240,"width":622,"height":316},
+		{"id":"865228817933a4f2","type":"text","text":"level05'e giriş yapmıştık ama burada işler zorlaşmaya başladı çünkü herhangi bir dosya göremedik, sistemde gezinmeye başladık ama herhangi bir ipucu bulamadık ve bir kaç gün projeye bakmadık.\nGünler sonra tekrardan çalışmak için motive olmuştuk ve giriş yaptığımızda şöyle bir şey farkettik.","x":-223,"y":140,"width":545,"height":177,"color":"1"},
+		{"id":"5176356ad900bf00","type":"file","file":"snowcrash/explain all/level05/2.png","x":-560,"y":380,"width":910,"height":512},
+		{"id":"22a81635ec184692","type":"text","text":"Daha sonra sistemde mail geçen tüm her şeyi aradık","x":-155,"y":960,"width":505,"height":50,"color":"1"},
+		{"id":"1ad2846066127901","type":"file","file":"snowcrash/explain all/level05/3.png","x":-560,"y":1060,"width":952,"height":549},
+		{"id":"2d173f846ea4a38e","x":-310,"y":1680,"width":400,"height":231,"type":"file","file":"snowcrash/explain all/level05/4.png"},
+		{"id":"c9cbfb37ea74bb80","type":"text","text":"Tek tek hepsini kontrol ettiğimizde level05 dosyasını bulduk","x":-327,"y":1960,"width":485,"height":60,"color":"1"},
+		{"id":"482631a34fbe3034","type":"file","file":"snowcrash/explain all/level05/5.png","x":-600,"y":2080,"width":1140,"height":658},
+		{"id":"ff745608e4f54290","type":"text","text":"Her 2 dakikada bir defa \"sh /usr/sbin/openarenaserver\" çalıştıran bir cron dosyası gördük","x":-311,"y":2800,"width":705,"height":61,"color":"1"},
+		{"id":"c705f340ac434399","type":"text","text":"/opt/openarenaserver/ dosyası içerisinde ki şeyleri çalıştırıp ardından silen bir betik dosyası olduğunu gördük","x":-254,"y":3717,"width":468,"height":100,"color":"1"},
+		{"id":"24d58c52c3b4379a","type":"file","file":"snowcrash/explain all/level05/7.png","x":-506,"y":3877,"width":900,"height":519},
+		{"id":"4b0ecd1fee0068f3","type":"text","text":"tmp'ye bir dosya oluşturduk ve amacımız getflag komutunun çalışmasını sağlamak","x":-326,"y":4457,"width":487,"height":50,"color":"1"},
+		{"id":"c653cf7f6ab33249","type":"file","file":"snowcrash/explain all/level05/8.png","x":-506,"y":4557,"width":941,"height":543},
+		{"id":"fc662688b2c4dfdf","type":"text","text":"Tek yapmamız gereken şey 2 dakika beklemek oldu :3","x":-281,"y":5177,"width":450,"height":60,"color":"1"},
+		{"id":"2212741abdcf3f22","type":"file","file":"snowcrash/explain all/level05/6.png","x":-661,"y":2920,"width":1283,"height":740}
+	],
+	"edges":[
+		{"id":"60c1dbabdaa4dc0e","fromNode":"7b80c8b3ee471013","fromSide":"bottom","toNode":"865228817933a4f2","toSide":"top"},
+		{"id":"cdcf90fd08ce9aa7","fromNode":"865228817933a4f2","fromSide":"bottom","toNode":"5176356ad900bf00","toSide":"top"},
+		{"id":"de920e2c1c6e45da","fromNode":"5176356ad900bf00","fromSide":"bottom","toNode":"22a81635ec184692","toSide":"top"},
+		{"id":"75777bfc99f26e2d","fromNode":"22a81635ec184692","fromSide":"bottom","toNode":"1ad2846066127901","toSide":"top"},
+		{"id":"b38639d08554874f","fromNode":"1ad2846066127901","fromSide":"bottom","toNode":"2d173f846ea4a38e","toSide":"top"},
+		{"id":"4036c80c75c625b7","fromNode":"c9cbfb37ea74bb80","fromSide":"bottom","toNode":"482631a34fbe3034","toSide":"top"},
+		{"id":"d3da381bc74d15ff","fromNode":"482631a34fbe3034","fromSide":"bottom","toNode":"ff745608e4f54290","toSide":"top"},
+		{"id":"6c4e13cd46c175a0","fromNode":"ff745608e4f54290","fromSide":"bottom","toNode":"2212741abdcf3f22","toSide":"top"},
+		{"id":"aee5f061f7308e9c","fromNode":"2212741abdcf3f22","fromSide":"bottom","toNode":"c705f340ac434399","toSide":"top"},
+		{"id":"e936f6d83673d5ff","fromNode":"c705f340ac434399","fromSide":"bottom","toNode":"24d58c52c3b4379a","toSide":"top"},
+		{"id":"6833088660b8fc46","fromNode":"24d58c52c3b4379a","fromSide":"bottom","toNode":"4b0ecd1fee0068f3","toSide":"top"},
+		{"id":"6a96a9d633584713","fromNode":"4b0ecd1fee0068f3","fromSide":"bottom","toNode":"c653cf7f6ab33249","toSide":"top"},
+		{"id":"b07c9f43eb09fa46","fromNode":"c653cf7f6ab33249","fromSide":"bottom","toNode":"fc662688b2c4dfdf","toSide":"top"},
+		{"id":"3a7d601cd7fb9ac4","fromNode":"2d173f846ea4a38e","fromSide":"bottom","toNode":"c9cbfb37ea74bb80","toSide":"top"}
+	]
+}
