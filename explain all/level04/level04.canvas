@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"bb63c52b0325d77f","type":"file","file":"1.png","x":-500,"y":-460,"width":946,"height":480},
+		{"id":"e1a5c370aa3fecaf","type":"text","text":"Her zamanki gibi önce ne var ne yok diye checkliyoruz ve bir perl dosyası ve yetkilendirme üzerinde rws olduğunu görüyoruz. Bu da bize dosya çalıştırıldığında, çalıştıran kullanıcının değil, dosyanın sahibi olan kullanıcının izinleriyle çalışacağını gösterir.","x":-320,"y":140,"width":702,"height":100,"color":"1"},
+		{"id":"fd7b667c251afe42","type":"text","text":"Bunu ayrıca \"file level04.pl\" yaparakta görebilirsiniz.","x":-189,"y":300,"width":441,"height":50,"color":"5"},
+		{"id":"330ac97442cdc996","type":"file","file":"snowcrash/explain all/level04/2.png","x":-570,"y":440,"width":1202,"height":676},
+		{"id":"0bc76278a73b0106","type":"text","text":"Dosya içeriğine baktığımızda gelen ilk parametreyi y değişkenine atıp echo ile yazdıran basit bir x fonksiyonu ve akabinde bu fonksiyonu çağırdığını görüyoruz.","x":31,"y":1200,"width":657,"height":72,"color":"1"},
+		{"id":"69ed422d81df25d5","type":"file","file":"snowcrash/explain all/level04/3,5.png","x":-240,"y":1320,"width":833,"height":423},
+		{"id":"d28f4a9b10f9255a","type":"file","file":"snowcrash/explain all/level04/3.png","x":960,"y":1320,"width":1379,"height":700},
+		{"id":"a22cbf41cdd910fc","type":"text","text":"curl localhost:4747/?x=$(getflag) komutu ile flag'i almayı denedik ama level04 üzerinde çalıştırdığımızı farkettik o halde parametreyi başka şekilde göndermemiz gerekiyor.","x":1120,"y":2080,"width":880,"height":80,"color":"1"},
+		{"id":"7692f8ba80f3823c","type":"file","file":"snowcrash/explain all/level04/4.png","x":-520,"y":2400,"width":2010,"height":1020},
+		{"id":"940dc13447bc8bf8","x":-80,"y":3520,"width":1040,"height":80,"color":"1","type":"text","text":"curl localhost:4747/?x='$(getflag)'         bu şekilde tırnak içerisinde gönderdiğimiz de flag04 user'i üzerinde çalıştı ve flag'i elde ettik"},
+		{"id":"64ded0a7c99701be","x":127,"y":3680,"width":626,"height":55,"color":"6","type":"text","text":"Bu zaafiyet nedenini daha kolay anlamanız için şöyle bir örnek vereyim"},
+		{"id":"09d15544ae9596c4","x":-280,"y":3920,"width":1920,"height":975,"type":"file","file":"snowcrash/explain all/level04/5.png"},
+		{"id":"57c490bf3bd385b2","x":-240,"y":5040,"width":400,"height":100,"color":"4","type":"text","text":"curl localhost:4747/?x=$(whoami)\n\nkomutunu çalıştırdığımızda şu işlenmiş oluyor\n"},
+		{"id":"2a58ee055c78e37d","x":-320,"y":5240,"width":400,"height":63,"type":"file","file":"snowcrash/explain all/level04/örn1.png"},
+		{"id":"ed27747778fb7ae5","x":800,"y":5023,"width":480,"height":117,"color":"4","type":"text","text":"curl localhost:4747/?x='$(whoami)'\n\nkomutunu çalıştırdığımız da ise şu şekilde işlenmiş oluyor"},
+		{"id":"b576816d255680ca","x":880,"y":5231,"width":400,"height":72,"type":"file","file":"snowcrash/explain all/level04/örn2.png"}
+	],
+	"edges":[
+		{"id":"a39d541de3bf7c08","fromNode":"bb63c52b0325d77f","fromSide":"bottom","toNode":"e1a5c370aa3fecaf","toSide":"top"},
+		{"id":"70e88fb8684d4cb8","fromNode":"e1a5c370aa3fecaf","fromSide":"bottom","toNode":"fd7b667c251afe42","toSide":"top"},
+		{"id":"7192be02589a4a03","fromNode":"fd7b667c251afe42","fromSide":"bottom","toNode":"330ac97442cdc996","toSide":"top"},
+		{"id":"86308acc12b48357","fromNode":"330ac97442cdc996","fromSide":"bottom","toNode":"0bc76278a73b0106","toSide":"top"},
+		{"id":"db2e40e62cff8136","fromNode":"0bc76278a73b0106","fromSide":"bottom","toNode":"69ed422d81df25d5","toSide":"top"},
+		{"id":"12fb03f5d1474b5d","fromNode":"69ed422d81df25d5","fromSide":"right","toNode":"d28f4a9b10f9255a","toSide":"left"},
+		{"id":"0b8e841566b0fbec","fromNode":"d28f4a9b10f9255a","fromSide":"bottom","toNode":"a22cbf41cdd910fc","toSide":"top"},
+		{"id":"ad70509149f88e36","fromNode":"a22cbf41cdd910fc","fromSide":"bottom","toNode":"7692f8ba80f3823c","toSide":"top"},
+		{"id":"a09b74f8f4d28841","fromNode":"7692f8ba80f3823c","fromSide":"bottom","toNode":"940dc13447bc8bf8","toSide":"top"},
+		{"id":"f36cc98fff1b532f","fromNode":"940dc13447bc8bf8","fromSide":"bottom","toNode":"64ded0a7c99701be","toSide":"top"},
+		{"id":"d14b310beaa00f25","fromNode":"57c490bf3bd385b2","fromSide":"bottom","toNode":"2a58ee055c78e37d","toSide":"top"},
+		{"id":"55fa2c89f115ef9b","fromNode":"09d15544ae9596c4","fromSide":"bottom","toNode":"57c490bf3bd385b2","toSide":"top"},
+		{"id":"1355618c8af1bc94","fromNode":"09d15544ae9596c4","fromSide":"bottom","toNode":"ed27747778fb7ae5","toSide":"top"},
+		{"id":"67ccd812dd441ebd","fromNode":"ed27747778fb7ae5","fromSide":"bottom","toNode":"b576816d255680ca","toSide":"top"},
+		{"id":"b1e520d7ef3b3bef","fromNode":"64ded0a7c99701be","fromSide":"bottom","toNode":"09d15544ae9596c4","toSide":"top"}
+	]
+}
