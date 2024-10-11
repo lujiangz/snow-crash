@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"8a9887f549e78f10","x":-420,"y":-300,"width":753,"height":431,"type":"file","file":"snowcrash/explain all/level08/1.png"},
+		{"id":"a9e26e40776a7361","x":-420,"y":240,"width":753,"height":427,"type":"file","file":"snowcrash/explain all/level08/2.png"},
+		{"id":"64f987f5311e133f","x":-420,"y":780,"width":739,"height":396,"type":"file","file":"snowcrash/explain all/level08/3.png"},
+		{"id":"1875b7879a6d02b2","x":-480,"y":1400,"width":937,"height":502,"type":"file","file":"snowcrash/explain all/level08/4.png"},
+		{"id":"02ef732882e48340","x":-272,"y":1240,"width":444,"height":108,"color":"1","type":"text","text":"Artık bizim için sıradanlaşmış komutları açıklamıyoruz ve zaten her level için aynı işlemleri yapıyoruz"},
+		{"id":"ec03051c4ebf543b","x":-181,"y":1980,"width":340,"height":80,"color":"1","type":"text","text":"Programı argümansız çalıştırdığımızda bir argüman beklediğini söylüyor"},
+		{"id":"d76e437591fbde80","x":-480,"y":2160,"width":937,"height":502,"type":"file","file":"snowcrash/explain all/level08/5.png"},
+		{"id":"42cb921a97bffa50","x":-160,"y":2740,"width":345,"height":100,"color":"1","type":"text","text":"Sistemin bize verdiği token dosyasını argümanı olarak kullandığımızda ise buna erişiminiz yok diyor."},
+		{"id":"1627c29d55fd0f2f","x":-480,"y":2940,"width":937,"height":502,"type":"file","file":"snowcrash/explain all/level08/6.png"},
+		{"id":"a9fbeb812ba76005","x":-191,"y":3520,"width":360,"height":96,"color":"1","type":"text","text":"Burada ltrace ile kullanılan dinamik işlevleri kontrol ediyoruz ki program hakkında daha fazla bilgi sahibi olalım."},
+		{"id":"7c9245d1f9428904","x":-510,"y":3720,"width":967,"height":518,"type":"file","file":"snowcrash/explain all/level08/7.png"},
+		{"id":"dde5f16cc36bc9f5","x":-240,"y":4320,"width":434,"height":200,"color":"1","type":"text","text":"strstr ile programa gelen argümanın adının \"token\" stringi ile karlılaştırıldığını ve bulduğunda ise bize verdiği erişim hatasını verdiğini görüyoruz. Asıl amacımız bu tokeni kullanmak ama bu isimde olduğu sürece kullanamıyoruz. O halde başka şeyler denememiz lazım"},
+		{"id":"a42344201e48ac21","x":-427,"y":4600,"width":808,"height":433,"type":"file","file":"snowcrash/explain all/level08/8.png"},
+		{"id":"9a0527db879fbcea","x":-207,"y":5120,"width":368,"height":120,"color":"1","type":"text","text":"Symbolic link kullanarak token dosyamızı /tmp/ içerisinde luji olarak oluşturduk böylece luji adında bir dosyamız olacak ve token dosyası çalışmış olacak"},
+		{"id":"181da164cdb0740b","x":-453,"y":5360,"width":1045,"height":560,"type":"file","file":"snowcrash/explain all/level08/9.png"},
+		{"id":"de2ceeea1135bbc1","x":500,"y":5210,"width":340,"height":60,"color":"4","type":"text","text":"Symbolic link işlemi Windows'ta kısayol oluştur işlemiyle aynıdır."}
+	],
+	"edges":[
+		{"id":"a653dff9bcbc5fd8","fromNode":"8a9887f549e78f10","fromSide":"bottom","toNode":"a9e26e40776a7361","toSide":"top"},
+		{"id":"7227c29ad945d071","fromNode":"a9e26e40776a7361","fromSide":"bottom","toNode":"64f987f5311e133f","toSide":"top"},
+		{"id":"37ec422a7445822b","fromNode":"64f987f5311e133f","fromSide":"bottom","toNode":"02ef732882e48340","toSide":"top"},
+		{"id":"84d2ea8936e38b99","fromNode":"02ef732882e48340","fromSide":"bottom","toNode":"1875b7879a6d02b2","toSide":"top"},
+		{"id":"4193e46b2ea27362","fromNode":"1875b7879a6d02b2","fromSide":"bottom","toNode":"ec03051c4ebf543b","toSide":"top"},
+		{"id":"e5a5859e1099a6d5","fromNode":"ec03051c4ebf543b","fromSide":"bottom","toNode":"d76e437591fbde80","toSide":"top"},
+		{"id":"705abffe4339fbb3","fromNode":"d76e437591fbde80","fromSide":"bottom","toNode":"42cb921a97bffa50","toSide":"top"},
+		{"id":"2633d484936ef584","fromNode":"42cb921a97bffa50","fromSide":"bottom","toNode":"1627c29d55fd0f2f","toSide":"top"},
+		{"id":"2eac894d6f26dc38","fromNode":"1627c29d55fd0f2f","fromSide":"bottom","toNode":"a9fbeb812ba76005","toSide":"top"},
+		{"id":"db82c527b1a98b35","fromNode":"a9fbeb812ba76005","fromSide":"bottom","toNode":"7c9245d1f9428904","toSide":"top"},
+		{"id":"4a09bd00c3e74dde","fromNode":"7c9245d1f9428904","fromSide":"bottom","toNode":"dde5f16cc36bc9f5","toSide":"top"},
+		{"id":"533c477823ca3585","fromNode":"dde5f16cc36bc9f5","fromSide":"bottom","toNode":"a42344201e48ac21","toSide":"top"},
+		{"id":"abf8fff007776219","fromNode":"a42344201e48ac21","fromSide":"bottom","toNode":"9a0527db879fbcea","toSide":"top"},
+		{"id":"d9f87190191bc847","fromNode":"9a0527db879fbcea","fromSide":"bottom","toNode":"181da164cdb0740b","toSide":"top"},
+		{"id":"b35b4ff12301699e","fromNode":"9a0527db879fbcea","fromSide":"right","toNode":"de2ceeea1135bbc1","toSide":"left"}
+	]
+}
