@@ -1,18 +1,18 @@
 {
 	"nodes":[
-		{"id":"35670b4791d7edc3","x":-380,"y":-360,"width":740,"height":416,"type":"file","file":"snowcrash/explain all/level07/1.png"},
-		{"id":"131c561034c33318","x":-380,"y":160,"width":740,"height":416,"type":"file","file":"snowcrash/explain all/level07/2.png"},
-		{"id":"b1e03a1500a14322","x":-374,"y":700,"width":734,"height":413,"type":"file","file":"snowcrash/explain all/level07/3.png"},
-		{"id":"d411b3c91920d363","x":-374,"y":1240,"width":782,"height":440,"type":"file","file":"snowcrash/explain all/level07/4.png"},
-		{"id":"d33ec1ce7bfadd38","x":-240,"y":1760,"width":467,"height":113,"color":"1","type":"text","text":"Artık bizim için sıradanlaşan şeyleri yaptıktan sonra programı çalıştırdık ve daha öncesinde de gördüğümüz gibi env kullandığını ve muhtemelen LOGNAME olduğunu düşündük "},
-		{"id":"b0a050782de3802a","x":-340,"y":1940,"width":709,"height":399,"type":"file","file":"snowcrash/explain all/level07/5.png"},
-		{"id":"81de793474f0094d","x":-170,"y":2420,"width":369,"height":80,"color":"1","type":"text","text":"ltrace kullarak dinamik olarak gerçekten buradan alıp almadığını kontrol etmek istedik ve her şey düşündüğümüz gibiydi"},
-		{"id":"0fbfb06931418d30","x":-340,"y":2560,"width":709,"height":399,"type":"file","file":"snowcrash/explain all/level07/6.png"},
-		{"id":"55429c8016338079","x":-179,"y":3080,"width":387,"height":125,"color":"1","type":"text","text":"LOGNAME bilgisini dinamik olarak değiştirdiğimizde çalıştığını gördük ama isterseniz siz 2. yöntemimiz olan direkt export ile de LOGNAME değerini değiştirip flag'i elde edebilirsiniz."},
-		{"id":"4f764fe3f883917d","x":-340,"y":3320,"width":709,"height":399,"type":"file","file":"snowcrash/explain all/level07/7.png"},
-		{"id":"c1d1ec292d6a0830","x":-340,"y":3800,"width":711,"height":400,"type":"file","file":"snowcrash/explain all/level07/8.png"},
-		{"id":"29fb2ae2ff7ccf9f","x":700,"y":3340,"width":996,"height":560,"type":"file","file":"snowcrash/explain all/level07/9.png"},
-		{"id":"5e02c22ab3800559","x":640,"y":4280,"width":495,"height":94,"color":"5","type":"text","text":"Her iki yöntemle de flag'i elde edebilirsiniz. Bir ara üşenmezsem, ltrace ve strace hakkında detaylı bilgi verebilirim."}
+		{"id":"35670b4791d7edc3","type":"file","file":"explain all/level07/1.png","x":-380,"y":-360,"width":740,"height":416},
+		{"id":"131c561034c33318","type":"file","file":"explain all/level07/2.png","x":-380,"y":160,"width":740,"height":416},
+		{"id":"b1e03a1500a14322","type":"file","file":"explain all/level07/3.png","x":-374,"y":700,"width":734,"height":413},
+		{"id":"d411b3c91920d363","type":"file","file":"explain all/level07/4.png","x":-374,"y":1240,"width":782,"height":440},
+		{"id":"d33ec1ce7bfadd38","type":"text","text":"Artık bizim için sıradanlaşan şeyleri yaptıktan sonra programı çalıştırdık ve daha öncesinde de gördüğümüz gibi env kullandığını ve muhtemelen LOGNAME olduğunu düşündük ","x":-240,"y":1760,"width":467,"height":113,"color":"1"},
+		{"id":"b0a050782de3802a","type":"file","file":"explain all/level07/5.png","x":-340,"y":1940,"width":709,"height":399},
+		{"id":"81de793474f0094d","type":"text","text":"ltrace kullarak dinamik olarak gerçekten buradan alıp almadığını kontrol etmek istedik ve her şey düşündüğümüz gibiydi","x":-170,"y":2420,"width":369,"height":80,"color":"1"},
+		{"id":"0fbfb06931418d30","type":"file","file":"explain all/level07/6.png","x":-340,"y":2560,"width":709,"height":399},
+		{"id":"55429c8016338079","type":"text","text":"LOGNAME bilgisini dinamik olarak değiştirdiğimizde çalıştığını gördük ama isterseniz siz 2. yöntemimiz olan direkt export ile de LOGNAME değerini değiştirip flag'i elde edebilirsiniz.","x":-179,"y":3080,"width":387,"height":125,"color":"1"},
+		{"id":"4f764fe3f883917d","type":"file","file":"explain all/level07/7.png","x":-340,"y":3320,"width":709,"height":399},
+		{"id":"c1d1ec292d6a0830","type":"file","file":"explain all/level07/8.png","x":-340,"y":3800,"width":711,"height":400},
+		{"id":"29fb2ae2ff7ccf9f","type":"file","file":"explain all/level07/9.png","x":700,"y":3340,"width":996,"height":560},
+		{"id":"5e02c22ab3800559","type":"text","text":"Her iki yöntemle de flag'i elde edebilirsiniz. Bir ara üşenmezsem, ltrace ve strace hakkında detaylı bilgi verebilirim.","x":640,"y":4280,"width":495,"height":94,"color":"5"}
 	],
 	"edges":[
 		{"id":"d1b69136030a3788","fromNode":"35670b4791d7edc3","fromSide":"bottom","toNode":"131c561034c33318","toSide":"top"},

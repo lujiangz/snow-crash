@@ -1,21 +1,21 @@
 {
 	"nodes":[
-		{"id":"bb63c52b0325d77f","type":"file","file":"1.png","x":-500,"y":-460,"width":946,"height":480},
+		{"id":"bb63c52b0325d77f","type":"file","file":"explain all/level04/1.png","x":-500,"y":-460,"width":946,"height":480},
 		{"id":"e1a5c370aa3fecaf","type":"text","text":"Her zamanki gibi önce ne var ne yok diye checkliyoruz ve bir perl dosyası ve yetkilendirme üzerinde rws olduğunu görüyoruz. Bu da bize dosya çalıştırıldığında, çalıştıran kullanıcının değil, dosyanın sahibi olan kullanıcının izinleriyle çalışacağını gösterir.","x":-320,"y":140,"width":702,"height":100,"color":"1"},
 		{"id":"fd7b667c251afe42","type":"text","text":"Bunu ayrıca \"file level04.pl\" yaparakta görebilirsiniz.","x":-189,"y":300,"width":441,"height":50,"color":"5"},
-		{"id":"330ac97442cdc996","type":"file","file":"snowcrash/explain all/level04/2.png","x":-570,"y":440,"width":1202,"height":676},
+		{"id":"330ac97442cdc996","type":"file","file":"explain all/level04/2.png","x":-570,"y":440,"width":1202,"height":676},
 		{"id":"0bc76278a73b0106","type":"text","text":"Dosya içeriğine baktığımızda gelen ilk parametreyi y değişkenine atıp echo ile yazdıran basit bir x fonksiyonu ve akabinde bu fonksiyonu çağırdığını görüyoruz.","x":31,"y":1200,"width":657,"height":72,"color":"1"},
-		{"id":"69ed422d81df25d5","type":"file","file":"snowcrash/explain all/level04/3,5.png","x":-240,"y":1320,"width":833,"height":423},
-		{"id":"d28f4a9b10f9255a","type":"file","file":"snowcrash/explain all/level04/3.png","x":960,"y":1320,"width":1379,"height":700},
+		{"id":"69ed422d81df25d5","type":"file","file":"explain all/level04/3,5.png","x":-240,"y":1320,"width":833,"height":423},
+		{"id":"d28f4a9b10f9255a","type":"file","file":"explain all/level04/3.png","x":960,"y":1320,"width":1379,"height":700},
 		{"id":"a22cbf41cdd910fc","type":"text","text":"curl localhost:4747/?x=$(getflag) komutu ile flag'i almayı denedik ama level04 üzerinde çalıştırdığımızı farkettik o halde parametreyi başka şekilde göndermemiz gerekiyor.","x":1120,"y":2080,"width":880,"height":80,"color":"1"},
-		{"id":"7692f8ba80f3823c","type":"file","file":"snowcrash/explain all/level04/4.png","x":-520,"y":2400,"width":2010,"height":1020},
-		{"id":"940dc13447bc8bf8","x":-80,"y":3520,"width":1040,"height":80,"color":"1","type":"text","text":"curl localhost:4747/?x='$(getflag)'         bu şekilde tırnak içerisinde gönderdiğimiz de flag04 user'i üzerinde çalıştı ve flag'i elde ettik"},
-		{"id":"64ded0a7c99701be","x":127,"y":3680,"width":626,"height":55,"color":"6","type":"text","text":"Bu zaafiyet nedenini daha kolay anlamanız için şöyle bir örnek vereyim"},
-		{"id":"09d15544ae9596c4","x":-280,"y":3920,"width":1920,"height":975,"type":"file","file":"snowcrash/explain all/level04/5.png"},
-		{"id":"57c490bf3bd385b2","x":-240,"y":5040,"width":400,"height":100,"color":"4","type":"text","text":"curl localhost:4747/?x=$(whoami)\n\nkomutunu çalıştırdığımızda şu işlenmiş oluyor\n"},
-		{"id":"2a58ee055c78e37d","x":-320,"y":5240,"width":400,"height":63,"type":"file","file":"snowcrash/explain all/level04/örn1.png"},
-		{"id":"ed27747778fb7ae5","x":800,"y":5023,"width":480,"height":117,"color":"4","type":"text","text":"curl localhost:4747/?x='$(whoami)'\n\nkomutunu çalıştırdığımız da ise şu şekilde işlenmiş oluyor"},
-		{"id":"b576816d255680ca","x":880,"y":5231,"width":400,"height":72,"type":"file","file":"snowcrash/explain all/level04/örn2.png"}
+		{"id":"7692f8ba80f3823c","type":"file","file":"explain all/level04/4.png","x":-520,"y":2400,"width":2010,"height":1020},
+		{"id":"940dc13447bc8bf8","type":"text","text":"curl localhost:4747/?x='$(getflag)'         bu şekilde tırnak içerisinde gönderdiğimiz de flag04 user'i üzerinde çalıştı ve flag'i elde ettik","x":-80,"y":3520,"width":1040,"height":80,"color":"1"},
+		{"id":"64ded0a7c99701be","type":"text","text":"Bu zaafiyet nedenini daha kolay anlamanız için şöyle bir örnek vereyim","x":127,"y":3680,"width":626,"height":55,"color":"6"},
+		{"id":"09d15544ae9596c4","type":"file","file":"explain all/level04/5.png","x":-280,"y":3920,"width":1920,"height":975},
+		{"id":"57c490bf3bd385b2","type":"text","text":"curl localhost:4747/?x=$(whoami)\n\nkomutunu çalıştırdığımızda şu işlenmiş oluyor\n","x":-240,"y":5040,"width":400,"height":100,"color":"4"},
+		{"id":"2a58ee055c78e37d","type":"file","file":"explain all/level04/örn1.png","x":-320,"y":5240,"width":398,"height":63},
+		{"id":"ed27747778fb7ae5","type":"text","text":"curl localhost:4747/?x='$(whoami)'\n\nkomutunu çalıştırdığımız da ise şu şekilde işlenmiş oluyor","x":800,"y":5023,"width":480,"height":117,"color":"4"},
+		{"id":"b576816d255680ca","type":"file","file":"explain all/level04/örn2.png","x":880,"y":5231,"width":400,"height":72}
 	],
 	"edges":[
 		{"id":"a39d541de3bf7c08","fromNode":"bb63c52b0325d77f","fromSide":"bottom","toNode":"e1a5c370aa3fecaf","toSide":"top"},

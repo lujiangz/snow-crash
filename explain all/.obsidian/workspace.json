@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "40ec34e48a08c8ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "443ab09478df3572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8095c5faf3238d77",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "level00/level00.canvas",
+                "viewState": {
+                  "x": 1994,
+                  "y": 922.1619593290443,
+                  "zoom": -3.4560330421754326
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "level00"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df62a21879a05878",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ce0d7f86cb31d90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2053d5e7587dc2cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dosya Gezgini"
+            }
+          },
+          {
+            "id": "6264392f2b08a992",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ara"
+            }
+          },
+          {
+            "id": "d09df6ab3338b550",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Yer İmleri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5bc2dc028d79f85",
+    "type": "split",
+    "children": [
+      {
+        "id": "a960d6baf818ca22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4de52863fc7882ac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "level00/level00.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "level00 için geri bağlantılar"
+            }
+          },
+          {
+            "id": "5e628f769847d466",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "level00/level00.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "level00'dan giden bağlantılar"
+            }
+          },
+          {
+            "id": "116b667857d4e2e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiketler"
+            }
+          },
+          {
+            "id": "1cd7f7021dd358b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "level00/level00.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "level00 ana hatları"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Hızlı geçişi aç": false,
+      "graph:Grafik görünümünü aç": false,
+      "canvas:Yeni tuval oluşturun": false,
+      "daily-notes:Bugünün Notunu Aç": false,
+      "templates:Şablon ekle": false,
+      "command-palette:Komut paletini aç": false
+    }
+  },
+  "active": "8095c5faf3238d77",
+  "lastOpenFiles": [
+    "level00/level00.canvas"
+  ]
+}

@@ -1,20 +1,20 @@
 {
 	"nodes":[
-		{"id":"2688f73717f07d7f","type":"file","file":"snowcrash/explain all/level03/1.png","x":-320,"y":-220,"width":660,"height":424},
+		{"id":"2688f73717f07d7f","type":"file","file":"explain all/level03/1.png","x":-320,"y":-220,"width":660,"height":424},
 		{"id":"77ac73da69e32e86","type":"text","text":"Her zamanki gibi önce ne var ne yok diye kontrol ediyoruz","x":-240,"y":-360,"width":340,"height":60,"color":"1"},
 		{"id":"847cb854f3492cd1","type":"text","text":"strnigs ./level03 ile okunabilir metinlere bakıyoruz ve karşımız abu sonuç çıkıyor","x":-256,"y":420,"width":474,"height":80,"color":"1"},
-		{"id":"b6ae40e894b25731","type":"file","file":"snowcrash/explain all/level03/2.png","x":520,"y":-520,"width":1184,"height":761},
-		{"id":"dd41f93b223b4657","type":"file","file":"snowcrash/explain all/level03/3.png","x":-420,"y":580,"width":698,"height":449},
-		{"id":"d8ecc9df4de108f3","type":"file","file":"snowcrash/explain all/level03/4.png","x":480,"y":980,"width":400,"height":257},
+		{"id":"b6ae40e894b25731","type":"file","file":"explain all/level03/2.png","x":520,"y":-520,"width":1184,"height":761},
+		{"id":"dd41f93b223b4657","type":"file","file":"explain all/level03/3.png","x":-420,"y":580,"width":698,"height":449},
+		{"id":"d8ecc9df4de108f3","type":"file","file":"explain all/level03/4.png","x":480,"y":980,"width":400,"height":257},
 		{"id":"24e4eca0541156bc","type":"text","text":"Dosyanın sahipliğinin flag03 adlı kullanıcıda olduğunu farkediyoruz","x":-144,"y":1207,"width":324,"height":73,"color":"1"},
-		{"id":"0be6fbab0a157cfd","type":"file","file":"snowcrash/explain all/level03/5.png","x":-144,"y":1380,"width":464,"height":298},
+		{"id":"0be6fbab0a157cfd","type":"file","file":"explain all/level03/5.png","x":-144,"y":1380,"width":464,"height":298},
 		{"id":"267f8fdb09a59f7a","type":"text","text":"file ./level03 ile bu dosya hakkında daha fazla bilgi almak istedik ve karşımıza setuid setgid değerlerinin ayarlandığını gördük. Yani bu dosyayı çalıştırdığımda aslında sahiplik kimde ise onun yetkileriyle çalıştırıyorum anlamına gelmektedir.","x":480,"y":1509,"width":570,"height":133,"color":"1"},
 		{"id":"1599808f8483e3a6","type":"text","text":"Örneğin passwd komut dosyasının sahipliği root kullanıcısındadır ve setuid setgit değerleri ayarlıdır.","x":-80,"y":1720,"width":371,"height":103,"color":"3"},
-		{"id":"2bb620354114f769","type":"file","file":"snowcrash/explain all/level03/6.png","x":-144,"y":1920,"width":504,"height":324},
+		{"id":"2bb620354114f769","type":"file","file":"explain all/level03/6.png","x":-144,"y":1920,"width":504,"height":324},
 		{"id":"aced46279fd49411","type":"text","text":"/tmp veya /var/tmp dosyalarına bir şey yazabiliyor muyuz diye kontrol ettik ve başarılıydı. Böylece kendi echo  file'mi oluşturursam ve path değişikliği yaparsam flag03 adına istediğim echo komutunu çalıştırmış olabileceğim.","x":480,"y":2106,"width":585,"height":71,"color":"1"},
-		{"id":"7f088f4fc1a683bc","type":"file","file":"snowcrash/explain all/level03/7.png","x":-144,"y":2340,"width":504,"height":324},
+		{"id":"7f088f4fc1a683bc","type":"file","file":"explain all/level03/7.png","x":-144,"y":2340,"width":504,"height":324},
 		{"id":"57d0685497484b6a","type":"text","text":"Biz burada sembolik bağlantı ile yaptık ama dilerseniz echo komutuyla echo dosyası oluşturup içine 'bin/getflag' yazabilirsiniz.","x":475,"y":2385,"width":596,"height":84,"color":"1"},
-		{"id":"610532a77d41470d","type":"file","file":"snowcrash/explain all/level03/8.png","x":540,"y":2620,"width":716,"height":460},
+		{"id":"610532a77d41470d","type":"file","file":"explain all/level03/8.png","x":540,"y":2620,"width":716,"height":460},
 		{"id":"14b334dc45e380de","type":"text","text":"7.png ve 8.png dosyalarının her ikiside aynı işlevi yapacaktır. Dilediğiniz şekilde yapabilirsiniz ^_^","x":-144,"y":2850,"width":424,"height":120,"color":"5"}
 	],
 	"edges":[
