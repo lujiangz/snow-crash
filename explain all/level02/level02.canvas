@@ -9,14 +9,10 @@
 		{"id":"fbac2d5479e15c70","type":"text","text":"","x":-1464,"y":1689,"width":250,"height":60},
 		{"id":"b89299a2fc031318","type":"text","text":"TCP protokolünde olduğu için  TCP filtreleme yapıyoruz ve karşımıza böyle bir sonuç çıkıyor","x":-840,"y":560,"width":610,"height":80,"color":"1"},
 		{"id":"7043810ee7a19bfe","type":"file","file":"explain all/level02/4.png","x":-1400,"y":800,"width":1360,"height":1113},
-		{"id":"3a965adac859c6d9","type":"text","text":"Daha iyi okuyabilmek için kopyalayıp inceliyoruz","x":320,"y":1480,"width":440,"height":50,"color":"1"},
-		{"id":"178a50a2eabba9f6","type":"file","file":"explain all/level02/5.png","x":-1464,"y":2040,"width":2963,"height":1605},
-		{"id":"fa90dd3dfcd4a8c1","type":"file","file":"explain all/level02/6.png","x":2200,"y":2800,"width":1608,"height":599},
-		{"id":"cd708c256353559d","type":"text","text":"Karşımıza çıkan ilk şifreyi deniyoruz ama başarısız olduk. Daha sonra \".\" olmadan şifreyi tekrar deniyoruz ama yine başarısız","x":2080,"y":3720,"width":720,"height":80,"color":"1"},
-		{"id":"def183de9d06ff48","type":"text","text":"Daha sonra hex değerlerine bakmaya karar verdik ve 7f (del) anlamına geldiğini kendinden önceki şeyi sildiğini farkettik","x":1360,"y":4920,"width":500,"height":80,"color":"1"},
-		{"id":"c6ae02861dca2d37","type":"file","file":"explain all/level02/7.png","x":-1323,"y":4000,"width":2345,"height":1000},
-		{"id":"83cc25a2b6442903","type":"file","file":"explain all/level02/8.png","x":-1000,"y":5360,"width":1210,"height":600},
-		{"id":"8f826d61cc4d489e","type":"file","file":"explain all/level02/9.png","x":580,"y":5440,"width":1305,"height":839}
+		{"id":"8be1eb5a2a828e6e","x":-1339,"y":2320,"width":1305,"height":1104,"type":"file","file":"explain all/level02/Ekran Resmi 2024-10-26 ÖS 4.03.27.png"},
+		{"id":"ba2d944d314f93ee","x":-1080,"y":2040,"width":502,"height":87,"color":"1","type":"text","text":"Alt tarafta gözüken Show data as \"Hex Dump\" kısmını UTF-8 yaptığımızda parolayı elde etmiş oluyoruz."},
+		{"id":"8f826d61cc4d489e","type":"file","file":"explain all/level02/9.png","x":-1339,"y":3640,"width":1305,"height":839},
+		{"id":"5d6c6717ed0cdc4e","x":60,"y":2127,"width":442,"height":125,"color":"4","type":"text","text":"Hex-Dump ile incelediğinizde orada gördüğünüz 7f değeri \"del\" anlamına gelmektedir ve karakter karakter inceleyip şifreyi elde edebilirsiniz. UTF-8 biçiminde okuduğumuzda bizim yapacağımız işlemi otomatik olarak zaten yapmış oluyor"}
 	],
 	"edges":[
 		{"id":"e374db5cc8d7063d","fromNode":"b581509ef56cef91","fromSide":"bottom","toNode":"4c0ca5b604689f34","toSide":"top"},
@@ -25,13 +21,10 @@
 		{"id":"6142d586321c92ad","fromNode":"d6855e61046a1eeb","fromSide":"bottom","toNode":"163f1e57adabbc4b","toSide":"top"},
 		{"id":"08999f098c9b7ea1","fromNode":"163f1e57adabbc4b","fromSide":"left","toNode":"b89299a2fc031318","toSide":"right"},
 		{"id":"425481f0effc3199","fromNode":"b89299a2fc031318","fromSide":"bottom","toNode":"7043810ee7a19bfe","toSide":"top"},
-		{"id":"72943783e67dc2ff","fromNode":"7043810ee7a19bfe","fromSide":"right","toNode":"3a965adac859c6d9","toSide":"left"},
-		{"id":"0156a341812a8755","fromNode":"3a965adac859c6d9","fromSide":"bottom","toNode":"178a50a2eabba9f6","toSide":"top"},
-		{"id":"64403f52d1c643fd","fromNode":"178a50a2eabba9f6","fromSide":"right","toNode":"fa90dd3dfcd4a8c1","toSide":"left"},
-		{"id":"7a6e86932d6e420f","fromNode":"fa90dd3dfcd4a8c1","fromSide":"bottom","toNode":"cd708c256353559d","toSide":"top"},
-		{"id":"3748682d6b520b0f","fromNode":"cd708c256353559d","fromSide":"bottom","toNode":"c6ae02861dca2d37","toSide":"top"},
-		{"id":"8c171ac97918e4ec","fromNode":"c6ae02861dca2d37","fromSide":"right","toNode":"def183de9d06ff48","toSide":"left"},
-		{"id":"ba0cbb793c2fe763","fromNode":"def183de9d06ff48","fromSide":"bottom","toNode":"83cc25a2b6442903","toSide":"top"},
-		{"id":"cab52144f3807971","fromNode":"83cc25a2b6442903","fromSide":"right","toNode":"8f826d61cc4d489e","toSide":"left"}
+		{"id":"ea3dc3c5dca36f5a","fromNode":"7043810ee7a19bfe","fromSide":"bottom","toNode":"ba2d944d314f93ee","toSide":"top"},
+		{"id":"43a6502244d4abb2","fromNode":"ba2d944d314f93ee","fromSide":"bottom","toNode":"8be1eb5a2a828e6e","toSide":"top"},
+		{"id":"639a2dc9105870e3","fromNode":"8be1eb5a2a828e6e","fromSide":"bottom","toNode":"8f826d61cc4d489e","toSide":"top"},
+		{"id":"81e12618cbec8377","fromNode":"8be1eb5a2a828e6e","fromSide":"right","toNode":"5d6c6717ed0cdc4e","toSide":"bottom"},
+		{"id":"967c6cd95a7955ca","fromNode":"ba2d944d314f93ee","fromSide":"right","toNode":"5d6c6717ed0cdc4e","toSide":"left"}
 	]
 }
