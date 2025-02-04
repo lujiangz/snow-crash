@@ -25,14 +25,14 @@ system("/usr/bin/env echo Exploit me")        <unfinished ...>
 
 ## Solution Steps
 
-1. First, we create a fake `echo` command in the `/etc` directory:
+1. First, we create a fake `echo` command in the `/tmp/` directory:
 ```bash
 ln -s /bin/getflag /etc/echo
 ```
 
-2. We update the PATH variable to include the `/etc` directory:
+2. We update the PATH variable to include the `/tmp/` directory:
 ```bash
-export PATH=/etc:$PATH
+export PATH=/tmp/:$PATH
 ```
 
 3. We run the program:
@@ -42,4 +42,4 @@ export PATH=/etc:$PATH
 
 ## Explanation
 
-In this level, we exploit a privilege escalation vulnerability by manipulating the PATH variable. When the program executes the `echo` command, it checks the directories specified in the PATH variable sequentially. By adding the `/etc` directory to the beginning of PATH, we make the program execute our fake `echo` command (which is actually a symbolic link to the `getflag` command).
+In this level, we exploit a privilege escalation vulnerability by manipulating the PATH variable. When the program executes the `echo` command, it checks the directories specified in the PATH variable sequentially. By adding the `/tmp/` directory to the beginning of PATH, we make the program execute our fake `echo` command (which is actually a symbolic link to the `getflag` command).
